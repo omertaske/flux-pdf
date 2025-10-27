@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.ornekalanadiniz.com/sitemap.xml
+Sitemap: https://flux-pdf.vercel.app/sitemap.xml
