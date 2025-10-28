@@ -80,6 +80,19 @@ function App() {
               ))}
             </div>
           </section>
+
+          {/* Reklam Birimi: fluxreklam1 (auto) */}
+          <div className="mx-auto max-w-5xl mb-10">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block', margin: '16px 0' }}
+              data-ad-client="ca-pub-3904218274935641"
+              data-ad-slot="6735775257"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            />
+            <script dangerouslySetInnerHTML={{ __html: `globalThis.adsbygoogle = globalThis.adsbygoogle || []; globalThis.adsbygoogle.push({});` }} />
+          </div>
           {/* Tabs */}
           <div className="flex justify-center gap-4 mb-12">
             <button
@@ -125,6 +138,18 @@ function App() {
               {activeTab === 'fromPdf' && <FileConverter mode="fromPdf" />}
               {activeTab === 'drawing' && <DrawingBoard />}
             </div>
+          </div>
+
+          {/* Reklam Birimi: autorelaxed */}
+          <div className="mx-auto max-w-5xl mt-10">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block', margin: '16px 0' }}
+              data-ad-client="ca-pub-3904218274935641"
+              data-ad-slot="4975615809"
+              data-ad-format="autorelaxed"
+            />
+            <script dangerouslySetInnerHTML={{ __html: `globalThis.adsbygoogle = globalThis.adsbygoogle || []; globalThis.adsbygoogle.push({});` }} />
           </div>
         </main>
       </div>
